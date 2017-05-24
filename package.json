@@ -1,0 +1,9 @@
+{
+  "name": "chatter",
+  "version": "1.0.0",
+  "description": "Mini twitter like app",
+  "main": "index.js",
+  "scripts": {},
+  "author": "JFAR",
+  "license": "ISC"
+}
