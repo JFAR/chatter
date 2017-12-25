@@ -2,8 +2,11 @@ var express = require("express");
 var app = express();
 
 /* Serve main webpage */
-app.get("/", function(req, res) {
-	res.sendFile('index.html');
+app.get("*", function(req, res) {
+	var options = {
+		root: __dirname
+	}
+	res.sendFile('index.html', options);
 });
 
 var port = 8080;

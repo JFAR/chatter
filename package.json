@@ -5,5 +5,6 @@
   "main": "index.js",
   "scripts": {},
   "author": "JFAR",
-  "license": "ISC"
+  "license": "ISC",
+  "private": true
 }
