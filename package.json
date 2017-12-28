@@ -6,5 +6,9 @@
   "scripts": {},
   "author": "JFAR",
   "license": "ISC",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "express": "~4.10.2",
+    "body-parser": "~1.9.2"
+  }
 }
